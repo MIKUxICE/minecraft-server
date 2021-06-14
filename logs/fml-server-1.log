@@ -1,0 +1,105 @@
+[16:40:18] [main/INFO] [FML/]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
+[16:40:19] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_221, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_221
+[16:40:19] [main/INFO] [STDERR/]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
+[16:40:19] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:40:19] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:40:19] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:40:19] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:40:19] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:20] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:20] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:22] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:40:23] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[16:40:23] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[16:40:23] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[16:40:27] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[16:40:27] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[16:40:27] [Server thread/INFO] [FML/]: Replaced 184 ore recipies
+[16:40:27] [Server thread/WARN] [FML/]: =============================================================
+[16:40:27] [Server thread/WARN] [FML/]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[16:40:27] [Server thread/WARN] [FML/]: Offendor: com/mohistmc/MohistMC.main([Ljava/lang/String;)V
+[16:40:27] [Server thread/WARN] [FML/]: Use FMLCommonHandler.exitJava instead
+[16:40:27] [Server thread/WARN] [FML/]: =============================================================
+[16:40:27] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[16:40:27] [Server thread/INFO] [FML/]: Config directory created successfully
+[16:40:28] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[16:40:28] [Server thread/INFO] [FML/]: Searching C:\Users\MIKUxICE\Desktop\minecraft-server\mods for mods
+[16:40:36] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 4 mods to load
+[16:40:37] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine] at CLIENT
+[16:40:37] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine] at SERVER
+[16:40:37] [Server thread/ERROR] [com.google.common.eventbus.EventBus.kimagine/kimagine]: Could not dispatch event: kimagine to public void pw.prok.imagine.ImagineModContainer.constructMod(cpw.mods.fml.common.event.FMLConstructionEvent)
+java.lang.IllegalStateException: java.lang.ClassNotFoundException: pw.prok.imagine.ImaginePoxy
+	at pw.prok.imagine.inject.Creator.creator(Creator.java:24) ~[KImagine-0.2.0.jar:?]
+	at pw.prok.imagine.inject.Creator.creator(Creator.java:16) ~[KImagine-0.2.0.jar:?]
+	at pw.prok.imagine.inject.Injector.create(Injector.java:101) ~[KImagine-0.2.0.jar:?]
+	at pw.prok.imagine.injectors.SidedProxyInjector.inject(SidedProxyInjector.java:23) ~[KImagine-0.2.0.jar:?]
+	at pw.prok.imagine.injectors.SidedProxyInjector.inject(SidedProxyInjector.java:11) ~[KImagine-0.2.0.jar:?]
+	at pw.prok.imagine.inject.AnnotationFieldInjector.inject(AnnotationFieldInjector.java:45) ~[KImagine-0.2.0.jar:?]
+	at pw.prok.imagine.inject.AnnotationFieldInjector.inject(AnnotationFieldInjector.java:11) ~[KImagine-0.2.0.jar:?]
+	at pw.prok.imagine.inject.Injector.injectInternal(Injector.java:88) ~[KImagine-0.2.0.jar:?]
+	at pw.prok.imagine.inject.Injector.injectInternal(Injector.java:82) ~[KImagine-0.2.0.jar:?]
+	at pw.prok.imagine.inject.Injector.inject(Injector.java:76) ~[KImagine-0.2.0.jar:?]
+	at pw.prok.imagine.ImagineModContainer.constructMod(ImagineModContainer.java:59) ~[KImagine-0.2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_221]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) [server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) [server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) [server-1.7.10.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) [LoadController.class:1.7.10-28]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) [LoadController.class:1.7.10-28]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_221]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) [server-1.7.10.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) [server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) [server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) [server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) [server-1.7.10.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) [LoadController.class:1.7.10-28]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513) [Loader.class:1.7.10-28]
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87) [FMLServerHandler.class:1.7.10-28]
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:313) [FMLCommonHandler.class:1.7.10-28]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:177) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:646) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.ClassNotFoundException: pw.prok.imagine.ImaginePoxy
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_221]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:117) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_221]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_221]
+	at pw.prok.imagine.inject.Creator.creator(Creator.java:21) ~[KImagine-0.2.0.jar:?]
+	... 37 more
+[16:40:37] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[16:40:37] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[16:40:37] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[16:40:37] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[16:40:37] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[16:40:37] [Server thread/INFO] [FML/]: Applying holder lookups
+[16:40:37] [Server thread/INFO] [FML/]: Holder lookups applied
+[16:40:37] [Server thread/INFO] [FML/]: Injecting itemstacks
+[16:40:37] [Server thread/INFO] [FML/]: Itemstack injection complete
+[16:40:37] [Server thread/INFO] [Minecraft/]: This server is running Cauldron version 1.7.10-28 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
+[16:40:37] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[16:40:37] [Server thread/INFO] [Minecraft/]: Using 16 threads for Netty based IO
+[16:40:38] [Server thread/INFO] [FML/]: Injecting itemstacks
+[16:40:38] [Server thread/INFO] [FML/]: Itemstack injection complete
+[16:40:38] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 4 mods
+[16:40:39] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@54c6ae4)
+[16:40:39] [Server thread/INFO] [FML/]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@54c6ae4)
+[16:40:39] [Server thread/INFO] [FML/]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@54c6ae4)
+[16:41:37] [Netty IO #6/INFO] [FML/]: Client protocol version 2
+[16:41:37] [Netty IO #6/INFO] [FML/]: Client attempting to join with 71 mods : Avaritia@1.11,NotEnoughItems@1.0.5.120,Thaumcraft@4.2.3.5,extracells@2.3.14,TConstruct@1.7.10-1.8.8.build991,StatusEffectHUD@1.27,DynamicLights_onFire@1.0.5,appliedenergistics2-core@rv3-beta-18,DynamicLights@1.3.9,DynamicLights_floodLights@1.0.2,armourersWorkshop@1.7.10-0.48.3,FLabsBF@4.1.2,bspkrsCore@6.15,mcp@9.05,Mantle@1.7.10-0.3.2.jenkins191,appliedenergistics2@rv3-beta-18,craftguide@1.6.8.2,DraconicEvolution@1.0.2h,inventorytweaks@1.58-147-645ca10,uniskinmod@1.2-dev4,ThermalExpansion@1.7.10R4.1.5,GraviSuite@1.7.10-2.0.3,SmartCursor@1.5.0,BotaniaVisualizer@1.7.2-1.0,PowerConverters@1.7.10_3.3.0-jenkins.76,ForbiddenMagic@1.7.10-0.575,weaponmod@v1.15.0,ThermalFoundation@1.7.10R1.2.6,flammpfeil.slashblade@mc1.7.10-r87,BrandonsCore@1.0.0.12,DynamicLights_dropItems@1.0.8,CoFHCore@1.7.10R3.1.4,DynamicLights_entityClasses@1.0.1,UnicodeFontFixer@1.1.9-mc1.7.10,CustomMainMenu@1.9.2,BambooMod@Minecraft@MC_VERSION@ var@VERSION@,FastCraft@1.21,Forge@10.13.4.1614,IronChest@6.0.62.742,DynamicLights_otherPlayers@1.0.8,DynamicLights_mobEquipment@1.0.8,thaumicenergistics@1.1.3.0,CodeChickenCore@1.0.7.46,ThaumicTinkerer@unspecified,ChickenChunks@1.3.4.16,DynamicLights_flameArrows@1.0.0,AdvancedSolarPanel@1.7.10-3.5.1,IC2@2.2.828-experimental,ThaumicTinkerer-preloader@0.1,ExtraBotany@r1.0-21,DamageIndicatorsMod@3.2.3,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,IguanaTweaksTConstruct@1.7.10-2.1.5.140,FML@7.10.99.99,anothercommonbugfix@1.1.6,TiCTooltips@1.2.3,universalsingularities@1.7.10-8.0,TCBotaniaExoflame@1.0,ThE-core@1.0.0.1,supersolarpanel@1.7.10-1.1.1-release,<CoFH ASM>@000,Baubles@1.0.1.10,recipehandler@1.7.10,ArmorStatusHUD@1.28,ThermalDynamics@1.7.10R1.2.1,voxelmap@1.7.10,FoodCraft@1.2.0,Botania@r1.8-249,DynamicLights_thePlayer@1.1.4,NoIC2Destruction@1.0.0
+[16:41:37] [Netty IO #6/INFO] [FML/]: Attempting connection with missing mods [kimagine] at CLIENT
+[16:41:49] [Server thread/INFO] [/]: CONSOLE: Stopping the server..
+[16:41:50] [Server thread/INFO] [FML/]: Unloading dimension 0
+[16:41:50] [Server thread/INFO] [FML/]: Unloading dimension -1
+[16:41:50] [Server thread/INFO] [FML/]: Unloading dimension 1
+[16:41:50] [Server thread/INFO] [FML/]: Applying holder lookups
+[16:41:50] [Server thread/INFO] [FML/]: Holder lookups applied
