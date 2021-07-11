@@ -544,8 +544,8 @@ protect:
     lava-flow: false
     water-flow: false
     water-bucket-flow: false
-    fire-spread: true
-    lava-fire-spread: true
+    fire-spread: false
+    lava-fire-spread: false
     flint-fire: false
     lightning-fire-spread: true
     portal-creation: false
@@ -677,10 +677,10 @@ protect:
   blacklist:
 
     # Which blocks should people be prevented from placing?
-    placement: 10,11,46,327
+    placement: 10,11,46
 
     # Which items should people be prevented from using?
-    usage: 327
+    usage: 
 
     # Which blocks should people be prevented from breaking?
     break:

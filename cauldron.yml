@@ -107,14 +107,15 @@ world-settings:
     allow-tnt-punishment: true
     infinite-water-source: true
     entity-despawn-immediate: false
-    worldgen-IC2-IC2: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-appliedenergistics2-QuartzWorldGen: true
     worldgen-BambooMod-GeneraterHandler: true
     worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
-    worldgen-CoFHCore-WorldHandler: true
-    worldgen-appliedenergistics2-QuartzWorldGen: true
     worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
     worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-CoFHCore-WorldHandler: true
+    worldgen-IC2-IC2: true
+    worldgen-DraconicEvolution-DraconicWorldGenerator: true
   max-players-visible: -1
   use-real-names: false
 protection:
@@ -139,9 +140,9 @@ world-environment-settings:
     keep-world-loaded: true
   the_end:
     keep-world-loaded: false
+  storage:
+    keep-world-loaded: false
   outer:
     keep-world-loaded: false
   bedrock:
-    keep-world-loaded: false
-  storage:
     keep-world-loaded: false

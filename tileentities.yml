@@ -28,3 +28,249 @@ world-settings:
     net-minecraft-tileentity-TileEntityMobSpawner:
       tick-no-players: false
       tick-interval: 1
+    thaumcraft-common-tiles-TileNode:
+      tick-no-players: false
+      tick-interval: 1
+    cpw-mods-ironchest-TileEntityCrystalChest:
+      tick-no-players: false
+      tick-interval: 1
+    advsolar-common-tiles-TileEntityUltimateSolarPanel:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-crop-TileEntityCrop:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-LavaTankLogic:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-SmelteryLogic:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-CastingBasinLogic:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityBrewingStand:
+      tick-no-players: false
+      tick-interval: 1
+    appeng-tile-grindstone-TileCrank:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-FaucetLogic:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-CastingTableLogic:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    com-supsolpans-tiles-TileSingularSolarPanel:
+      tick-no-players: false
+      tick-interval: 1
+    fox-spiteful-avaritia-tile-TileEntityNeutron:
+      tick-no-players: false
+      tick-interval: 1
+    appeng-tile-misc-TileCharger:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityHopper:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileNitor:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileArcaneWorkbench:
+      tick-no-players: false
+      tick-interval: 1
+    thaumic-tinkerer-common-block-tile-TileEnchanter:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileTube:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileTubeValve:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileResearchTable:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileAlchemyFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileCrucible:
+      tick-no-players: false
+      tick-interval: 1
+    advsolar-common-tiles-TileEntityMolecularTransformer:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-TileSpecialFlower:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileJarFillable:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileJarFillableVoid:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-mana-TilePool:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-TileTerraPlate:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-TileOpenCrate:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileThaumatoriumTop:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileChestHungry:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileThaumatorium:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-mana-TileSpreader:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-TileAltar:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-TileHourglass:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileInfusionMatrix:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-generator-tileentity-TileEntityKineticGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityPump:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-kineticgenerator-tileentity-TileEntityWindKineticGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityCanner:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityCropHavester:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-kineticgenerator-tileentity-TileEntityElectricKineticGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityCentrifuge:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-generator-tileentity-TileEntitySolarGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityLathe:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-wiring-TileEntityChargepadMFSU:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityMetalFormer:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityElectricFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityReplicator:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityMatter:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityRecycler:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityMacerator:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityExtractor:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityCompressor:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityScanner:
+      tick-no-players: false
+      tick-interval: 1
+    advsolar-common-tiles-TileEntityAdvancedSolarPanel:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-wiring-TileEntityElectricMFSU:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileEldritchObelisk:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileEldritchAltar:
+      tick-no-players: false
+      tick-interval: 1
+    com-supsolpans-tiles-TileAdminSolarPanel:
+      tick-no-players: false
+      tick-interval: 1
+    advsolar-common-tiles-TileEntityHybridSolarPanel:
+      tick-no-players: false
+      tick-interval: 1
+    appeng-tile-storage-TileChest:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-heatgenerator-tileentity-TileEntityElectricHeatGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityBlastFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-TileFloatingSpecialFlower:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileEssentiaCrystalizer:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-wiring-TileEntityLuminator:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityTeleporter:
+      tick-no-players: false
+      tick-interval: 1
+    com-brandon3055-draconicevolution-common-tileentities-TileCustomSpawner:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileTubeFilter:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-wiring-TileEntityElectricMFE:
+      tick-no-players: false
+      tick-interval: 1
+    com-supsolpans-tiles-TilePhotonicSolarPanel:
+      tick-no-players: false
+      tick-interval: 1
+    com-supsolpans-tiles-TileSpectralSolarPanel:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityIronFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-generator-tileentity-TileEntityGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileEldritchTrap:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileEldritchCrystal:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileEldritchCrabSpawner:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileEldritchPortal:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileEldritchLock:
+      tick-no-players: false
+      tick-interval: 1

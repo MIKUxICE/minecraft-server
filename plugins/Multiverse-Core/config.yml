@@ -24,7 +24,7 @@ multiverse-configuration:
   teleportintercept: 'true'
   firstspawnoverride: 'true'
   displaypermerrors: 'true'
-  globaldebug: '0'
+  globaldebug: '1'
   silentstart: 'false'
   messagecooldown: '5000'
   version: '2.9'
