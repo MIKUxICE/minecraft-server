@@ -22,13 +22,22 @@ debug:
 config-version: 1
 world-settings:
   default:
-    net-minecraft-tileentity-TileEntityChest:
-      tick-no-players: false
-      tick-interval: 1
     net-minecraft-tileentity-TileEntityMobSpawner:
       tick-no-players: false
       tick-interval: 1
     thaumcraft-common-tiles-TileNode:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityChest:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-TileSpecialFlower:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileEldritchObelisk:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileEldritchAltar:
       tick-no-players: false
       tick-interval: 1
     cpw-mods-ironchest-TileEntityCrystalChest:
@@ -101,9 +110,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     advsolar-common-tiles-TileEntityMolecularTransformer:
-      tick-no-players: false
-      tick-interval: 1
-    vazkii-botania-common-block-tile-TileSpecialFlower:
       tick-no-players: false
       tick-interval: 1
     thaumcraft-common-tiles-TileJarFillable:
@@ -203,12 +209,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     ic2-core-block-wiring-TileEntityElectricMFSU:
-      tick-no-players: false
-      tick-interval: 1
-    thaumcraft-common-tiles-TileEldritchObelisk:
-      tick-no-players: false
-      tick-interval: 1
-    thaumcraft-common-tiles-TileEldritchAltar:
       tick-no-players: false
       tick-interval: 1
     com-supsolpans-tiles-TileAdminSolarPanel:

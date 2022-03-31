@@ -65,3 +65,6 @@ world-settings:
     enabled: true
   outer:
     enabled: true
+worlds:
+  plotworld:
+    generator: PlotMe-DefaultGenerator
