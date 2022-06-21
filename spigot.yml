@@ -11,20 +11,16 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 7
-commands:
-  log: true
-  tab-complete: true
-  silent-commandblock-console: false
 settings:
-  late-bind: false
   sample-count: 12
+  late-bind: false
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: -1
   fullMatchRate: 10
-  bungeecord: false
   player-shuffle: 0
+  bungeecord: false
 messages:
   restart: Server is restarting
   whitelist: You are not whitelisted on this server!
@@ -32,15 +28,16 @@ messages:
   server-full: The server is full!
   outdated-client: Outdated client! Please use {}
   outdated-server: Outdated server! I'm still on {}
+commands:
+  log: true
+  tab-complete: true
+  silent-commandblock-console: false
 stats:
   disable-saving: false
   forced-stats: {}
 world-settings:
   default:
     verbose: false
-    merge-radius:
-      item: 4
-      exp: 6
     anti-xray:
       enabled: false
       engine-mode: 1
@@ -74,17 +71,6 @@ world-settings:
       animals: 16
       monsters: 24
       misc: 8
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 8
-    random-light-updates: false
-    save-structure-info: true
-    max-bulk-chunks: 5
-    max-entity-collisions: 8
-    max-tick-time:
-      tile: 1000
-      entity: 1000
-    max-tnt-per-tick: 100
     mob-spawn-range: 6
     entity-tracking-range:
       players: 48
@@ -92,10 +78,24 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
-    chunks-per-tick: 650
-    clear-tick-list: false
+    merge-radius:
+      item: 4
+      exp: 6
+    max-entity-collisions: 8
+    max-tick-time:
+      tile: 1000
+      entity: 1000
+    max-tnt-per-tick: 100
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
+    random-light-updates: false
+    save-structure-info: true
+    max-bulk-chunks: 5
     view-distance: 6
     use-async-lighting: false
+    chunks-per-tick: 650
+    clear-tick-list: false
     item-despawn-rate: 3000
     enable-zombie-pigmen-portal-spawns: true
     arrow-despawn-rate: 300

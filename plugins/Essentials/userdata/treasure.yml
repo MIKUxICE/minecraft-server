@@ -1,0 +1,29 @@
+uuid: ea838fca-084b-3542-8b56-f766252666a0
+timestamps:
+  login: 1651593295959
+  lastteleport: 1649610361530
+  logout: 1651593400098
+ipAddress: 101.188.13.111
+lastlocation:
+  world: DIM-1
+  x: 152.00380456839605
+  y: 61.0
+  z: 91.69905898672697
+  yaw: 272.70154
+  pitch: 10.64993
+afk: false
+homes:
+  xxx:
+    world: plotworld
+    x: 4.860879763949352
+    y: 66.0
+    z: 6.314702679677174
+    yaw: 76.21509
+    pitch: 14.04222
+logoutlocation:
+  world: plotworld
+  x: 4.690066897211525
+  y: 66.0
+  z: 9.684536740696226
+  yaw: -169.93846
+  pitch: 25.199982

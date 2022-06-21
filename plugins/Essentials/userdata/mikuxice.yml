@@ -1,7 +1,7 @@
 uuid: 3f7c42c7-2706-38fc-82be-3494f82c1067
 timestamps:
-  login: 1648717698464
-  logout: 1624971737641
+  login: 1649235910327
+  logout: 1649235933079
   lastteleport: 1623941196398
 ipAddress: 122.104.224.34
 lastlocation:
@@ -12,10 +12,10 @@ lastlocation:
   yaw: 0.0
   pitch: 0.0
 logoutlocation:
-  world: flat
-  x: 655.928474663771
-  y: 4.0
-  z: -136.91425694659196
-  yaw: 177.44972
-  pitch: -3.4499812
-afk: true
+  world: plotworld
+  x: -4.710996730671311
+  y: 69.0
+  z: 6.8615505314685885
+  yaw: 352.6503
+  pitch: 16.499998
+afk: false

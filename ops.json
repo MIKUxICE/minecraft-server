@@ -1,32 +1,12 @@
 [
   {
-    "uuid": "333061f8-a3d2-3630-9a5f-1acb8f8c1c8c",
-    "name": "TESTER",
-    "level": 4
-  },
-  {
     "uuid": "3f7c42c7-2706-38fc-82be-3494f82c1067",
     "name": "MIKUxICE",
     "level": 4
   },
   {
-    "uuid": "c2f0d537-d791-3b7b-94a3-92e17819c752",
-    "name": "GM",
-    "level": 4
-  },
-  {
     "uuid": "ad157eb1-ec80-31f0-a582-12f554360208",
     "name": "luoli",
-    "level": 4
-  },
-  {
-    "uuid": "d0581ae5-2e35-3310-885a-0a9963bfe6ad",
-    "name": "Seamas",
-    "level": 4
-  },
-  {
-    "uuid": "b62fd72e-5f53-3f43-b4fd-a5c3e0632a22",
-    "name": "MIIKUxICE",
     "level": 4
   }
 ]
